@@ -16,34 +16,34 @@ body {
     background: #F3F3F3;
 }
 
-.one {
+.brand {
     grid-row: 1 / span 1;
     grid-column: 1;
     background: red;
     
 }
 
-.two {
+.nav1 {
     grid-row:1; 
     grid-column: 3 / span 2;
     background: blue;
 }
 
-.three {
+.text {
     grid-row: 2 / span 2;
     grid-column: 3 / span 2;
     background: green;
     
 }
 
-.four {
+.img {
     grid-row: 2 /span 3;
     grid-column: 1 / span 2;
     background: purple;
     
 }
 
-.five {
+.nav2 {
     grid-row:4;
     grid-column: 4;
     background:orange;
