@@ -1,4 +1,4 @@
-body{
+body {
      margin:auto 0;
     background-color:black;
 }
@@ -7,9 +7,24 @@ a {
     text-decoration: none;
     color:white;
 }
+.overview {
+    color:blue;
+}
+
+.engineering{
+    color:blue;
+}
+
+#cockpit {
+    color:blue;
+}
 
 a:hover {
     color:blue;
+}
+
+a i:hover {
+    color:navy;
 }
 
 .navbar {
@@ -20,6 +35,7 @@ a:hover {
     padding-left:20px;
     padding-right: 20px; 
 }
+
 li {
     list-style: none;
 }
@@ -51,7 +67,7 @@ main {
 }
 .textbox {
     grid-column: 4;
-    grid-row: 1 / span 1;
+    grid-row: 1 / span 2;
 }
 
 .title {
@@ -60,6 +76,7 @@ main {
 
 .text {
     color:white;
+    
 }
 
 .learn-more {
@@ -73,7 +90,6 @@ main {
 .price {
     color:white;
 }
-
 
 .thumbnail{
     display:grid;
@@ -98,26 +114,52 @@ main {
     grid-row: 4 / span 2;  
     width:400%;
 }
-footer{
-    margin-top: auto;
-    padding: 3em;
-    text-align: end; 
-}
 
 .right{ 
-    width: 2rem;
-    height: 2rem;
-    background-color: blue;
+    display:flex;
+    grid-column: 4;
+    grid-row: 4;
+    width: 3rem;
+    height: 3rem;
+    color: blue;
     top: -2.5rem;
     right: 5rem;
     border-radius: 100%;
-    display: flex;
     cursor: pointer;
     align-items: flex-end;
+    justify-self: center;
+    size:20px;
+
 }
 
-.right i{
-    color: #0c0101;
-    font-size: 1rem;
-    margin: auto;
+.left{ 
+    display:flex;
+    grid-column: 4;
+    grid-row: 4;
+    width: 3rem;
+    height: 3rem;
+    color: blue;
+    top: -2.5rem;
+    right: rem;
+    border-radius: 100%;
+    cursor: pointer;
+    align-items: flex-end;
+    justify-self: center;
 }
+
+a i {
+    color:blue;
+}
+
+@media screen and (max-width: 576px) {
+    .small-100 {
+      width: 100%;
+    }
+    .hidden-small {
+      display: none;
+    }
+  }
+
+
+
+
