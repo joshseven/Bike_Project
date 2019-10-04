@@ -87,6 +87,17 @@ main {
     width:400%;
 }
 
+.bikefront {
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 2;  
+    width:400%;
+}
+
+.cockpit {
+    grid-column: 2 / span 2;
+    grid-row: 4 / span 2;  
+    width:400%;
+}
 footer{
     margin-top: auto;
     padding: 3em;
