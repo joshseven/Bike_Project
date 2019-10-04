@@ -75,7 +75,6 @@ main {
 }
 
 
-/*----------------image---------*/
 .thumbnail{
     display:grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -86,9 +85,7 @@ main {
     grid-column: 2 / span 2;
     grid-row: 2 / span 2;  
     width:400%;
-    
 }
-
 
 footer{
     margin-top: auto;
@@ -96,16 +93,16 @@ footer{
     text-align: end; 
 }
 
-.right{
-    
-    width: 3rem;
-    height: 3rem;
-    background-color: rgb(255, 255, 255);
+.right{ 
+    width: 2rem;
+    height: 2rem;
+    background-color: blue;
     top: -2.5rem;
     right: 5rem;
     border-radius: 100%;
     display: flex;
     cursor: pointer;
+    align-items: flex-end;
 }
 
 .right i{
