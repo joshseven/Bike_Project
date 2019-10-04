@@ -1,63 +1,64 @@
-/*---------header-----------*/
-.nav-container {
-    width: 100%;
-    background:black;
+body{
+     margin:auto 0;
+    background-color:black;
 }
 
-nav {
-    max-width: 970px;
-    margin: 0 auto;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    border:black;
-}
-
-nav a{
-    color:white;
+a {
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: .5em;
-    padding:1rem;
+    color:white;
 }
 
-.right-menu {
-    grid-column: 3 / span 2;
+a:hover {
+    color:blue;
 }
 
-.right-menu a {
-    padding: 10px 0;
-    margin-right: 25px;
-    font-size: 8px;
-    font-weight: 300;
+.navbar {
+    display:grid;
+    min-height: 100px;
+    grid-auto-flow: column;
+    grid-gap:1px;
+    padding-left:20px;
+    padding-right: 20px; 
+}
+li {
+    list-style: none;
+}
+
+.links {
+    display:grid;
+    justify-content: end;
+    align-content: center;
+    grid-auto-flow:column;
+    grid-gap: 20px;
+    font-size:20px;
+    margin:0;
 }
 
 .logo {
-    grid-column: 1;
-    font-size: 15px;
-    padding: 1rem;
+    font-size:15px;
+    display:grid;
+    justify-content:start;
+    align-content: center;
+    color: white;
+    padding:50px;
+    
 }
 
-/*--------------body-------*/
-body{
-    margin:auto 0;
+main {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    background-color:black;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
 }
-/* 
 .textbox {
-    display:grid;
-    grid-column: 3 / span 2;
-    grid-row: 2 / span 1;
-} */
+    grid-column: 4;
+    grid-row: 1 / span 1;
+}
 
 .title {
     color:blue;
 }
 
 .text {
-    display:grid;
     color:white;
 }
 
@@ -65,11 +66,50 @@ body{
     color:blue;
 }
 
-
-/*----------------image---------*/
-.bikeside{
-    display:grid;
-    grid-column: 1 / span 2;
-    grid-row: 2 / span 2;
+.learn-more:hover {
+    color: navy;  
 }
 
+.price {
+    color:white;
+}
+
+
+/*----------------image---------*/
+.thumbnail{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;  
+}
+
+.bikeside {
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 2;  
+    width:400%;
+    
+}
+
+
+footer{
+    margin-top: auto;
+    padding: 3em;
+    text-align: end; 
+}
+
+.right{
+    
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+    top: -2.5rem;
+    right: 5rem;
+    border-radius: 100%;
+    display: flex;
+    cursor: pointer;
+}
+
+.right i{
+    color: #0c0101;
+    font-size: 1rem;
+    margin: auto;
+}
