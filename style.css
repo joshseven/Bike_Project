@@ -77,7 +77,7 @@ main {
     grid-row: 1 / span 2;
     margin-right:25px;
     font-family:"Roboto",'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .textbox2{
@@ -85,15 +85,15 @@ main {
     grid-row: 2 / span 2;
     margin-left: 25px;
     font-family:"Roboto",'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .textbox3{
     
     grid-column: 2 / span 2;
-    grid-row: 1/ span 2;
+    grid-row: 1/ span 1;
     font-family:"Roboto",'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .title {
@@ -145,7 +145,7 @@ main {
 .cockpit {
     order:1;
     grid-column: 2 / span 2;
-    grid-row: 3 / span 2;  
+    grid-row: 2 / span 2;  
     width:100%;
 }
 
